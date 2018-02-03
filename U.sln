@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u.idsv.server", "u.idsv.server\u.idsv.server.csproj", "{725F0693-3087-43AB-888E-D4B07442432C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u.idsv.client", "u.idsv.client\u.idsv.client.csproj", "{E68B5789-F172-487D-967B-36A4B154CB36}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{725F0693-3087-43AB-888E-D4B07442432C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725F0693-3087-43AB-888E-D4B07442432C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725F0693-3087-43AB-888E-D4B07442432C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725F0693-3087-43AB-888E-D4B07442432C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68B5789-F172-487D-967B-36A4B154CB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68B5789-F172-487D-967B-36A4B154CB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68B5789-F172-487D-967B-36A4B154CB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68B5789-F172-487D-967B-36A4B154CB36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
